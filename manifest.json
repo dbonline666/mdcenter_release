@@ -1,0 +1,16 @@
+{
+  "releases": {
+    "v1.1.10": {
+      "support": true,
+      "files": {
+        "md_center_linux_amd64": "e265e2ba2a2d3b5c6cafa587673bf7f5b270fcb73b569ebd5197a60a800148b1",
+        "md_center_linux_arm64": "9950f72cd5b9e5ee7c6dcab73abe4629d9155b26785d968c6e691c861cae25b1",
+        "md_center_darwin_amd64": "8d698f9c297c793864230d7097e93528f7d7f36282a0b93569f4c657de63aac2",
+        "md_center_darwin_arm64": "a4a9de67ecacac8ac5e5fd19bd1b49e37a6f351f45c7bc5f9f797444ed568c4e",
+        "md_center_win_amd64": "a3a117c5091531b6dd873d11e4ea42816d744713f7e414cc17088db49519935b",
+        "md_center_win_arm64": "2452d3ae8ad334b19a56ad7c8e6f76deeb98bd00f97d4c2b414c6377ce4a9363"
+      }
+    }
+  },
+  "signature": null
+}
