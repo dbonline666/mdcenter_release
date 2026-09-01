@@ -1,6 +1,5 @@
-# MD Center
-
-MD Center 是一个面向媒体库管理与在线播放的部署工具，支持目录扫描、元数据/NFO 管理、标签、分类、系列、演员、收藏、资源查询、在线播放与定时扫描等功能。
+# Oh My Media
+Oh My Media 是一个面向媒体库管理与在线播放的部署工具，支持目录扫描、元数据/NFO 管理、标签、分类、系列、演员、收藏、资源查询、在线播放与定时扫描等功能。
 
 ## 快速开始
 
@@ -13,7 +12,7 @@ MD Center 是一个面向媒体库管理与在线播放的部署工具，支持�
 ```yaml
 services:
   md-center:
-    image: ghcr.io/dbonline666/md_center:latest
+    image: ghcr.io/dbonline666/oh-my-media:latest
     container_name: md-center
     restart: unless-stopped
     environment:
@@ -25,7 +24,7 @@ services:
       - /path/to/media:/media
 ```
 
-生产环境建议将 `latest` 替换为具体版本号，例如 `ghcr.io/dbonline666/md_center:1.1.10`，便于后续升级和回滚。
+生产环境建议将 `latest` 替换为具体版本号，例如 `ghcr.io/dbonline666/oh-my-media:2.0.10`，便于后续升级和回滚。
 
 ### 2. 启动
 
